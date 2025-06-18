@@ -11,7 +11,8 @@ movies = [
 
   
 
-with open("moves.csv", "w", newline='')as f: 
-    w = csv.writer(f) 
-    w.writerows(movies) 
+with open("moves.csv", "w", newline='', encoding="utf-8")as f: 
+    w = csv.writer(f)
+    for row in movies:
+    w.writerows(row) 
 

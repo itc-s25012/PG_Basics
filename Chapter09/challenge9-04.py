@@ -9,5 +9,6 @@ movies_japanese = [
 
 with open("movies_ja.csv", "w", newline='', encoding="utf-8") as f:
     w = csv.writer(f)
-    w.writerows(movies_japanese)
+    for row in movies_japanese:
+    w.writerows(row)
 
