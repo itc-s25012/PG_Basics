@@ -1,5 +1,5 @@
 import random
-word_list = [ "cat", "dog","rabbit","bird","fox"]
+word_list = [ "clear", "chase","cheer","canal","clean"]
 chosen_word = random.choice(word_list)
 
 def hangman(word):
